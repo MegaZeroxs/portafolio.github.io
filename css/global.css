@@ -1,0 +1,114 @@
+*{
+    transition: 0.2s;
+}
+
+@font-face {
+    font-family: 'CreatoDisplay-Black';
+    font-style : normal;
+    font-weight: normal;
+    src        : local('Tangerine'), url('../fonts/CreatoDisplay-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CreatoDisplay-Regular';
+    font-style : normal;
+    font-weight: normal;
+    src        : local('Tangerine'), url('../fonts/CreatoDisplay-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CreatoDisplay-Regular';
+    font-style : normal;
+    font-weight: normal;
+    src        : local('Tangerine'), url('../fonts/CreatoDisplay-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CreatoDisplay-RegularItalic';
+    font-style : normal;
+    font-weight: normal;
+    src        : local('Tangerine'), url('../fonts/CreatoDisplay-RegularItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CreatoDisplay-LightItalic';
+    font-style : normal;
+    font-weight: normal;
+    src        : local('Tangerine'), url('../fonts/CreatoDisplay-LightItalic.otf') format('truetype');
+}
+
+body {
+    font-family: 'CreatoDisplay-Black', serif;
+    font-size  : 48px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h3{
+    font-family: 'CreatoDisplay-LightItalic', serif;
+    font-size: 22px;
+}
+
+p{
+    font-family: 'CreatoDisplay-RegularItalic', serif;
+    font-size  : 22px;
+}
+
+.principal-container{
+    margin-top: 1em;
+}
+
+.card-stu{
+    padding: 0.5em;
+    text-align: center;
+}
+
+.card-stu:hover{
+    background: #EEE;
+}
+
+.card-stu-title{
+    font-size: 20px;
+    display: block;
+    cursor: default;
+    font-family: 'CreatoDisplay-Black';
+}
+
+.card-stu-subtitle{
+    font-size: 18px;
+    display: block;
+    cursor: default;
+    font-family: 'CreatoDisplay-Regular';
+}
+
+.card-project-title{
+    margin-top: 1em;
+    font-size: 20px;
+    display: block;
+    cursor: default;
+    font-family: 'CreatoDisplay-Black';
+}
+
+.card-project-subtitle{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 0.5em;
+    cursor: default;
+    font-family: 'CreatoDisplay-Regular';
+}
+
+.card-project-link{
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    color: rgb(233, 61, 181);
+    font-family: 'CreatoDisplay-Black';
+}
+
+footer{
+    margin: 2em 0;
+    font-size: 14px;
+    text-align: center;
+}
