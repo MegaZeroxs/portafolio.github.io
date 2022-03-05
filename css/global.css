@@ -1,5 +1,9 @@
-*{
+* {
     transition: 0.2s;
+}
+
+body {
+    background-color: #FFF;
 }
 
 @font-face {
@@ -42,73 +46,122 @@ body {
     font-size  : 48px;
 }
 
-h1{
-    font-size: 36px;
+h1 {
+    font-size: 34px;
 }
 
-h3{
+h3 {
     font-family: 'CreatoDisplay-LightItalic', serif;
-    font-size: 22px;
-}
-
-p{
-    font-family: 'CreatoDisplay-RegularItalic', serif;
     font-size  : 22px;
 }
 
-.principal-container{
+p {
+    font-family: 'CreatoDisplay-RegularItalic', serif;
+    font-size  : 22px;
+    color: #898989;
+}
+
+.other-info h1 {
+    font-size      : 32px;
+    text-align     : center;
+    color: rgb(87, 87, 87);
+    transition: 0.2s;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    text-decoration-color: rgb(87, 87, 87);
+    padding        : 1em 0;
+}
+
+.other-info h1:hover {
+    color: #000;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+.principal-container {
     margin-top: 1em;
 }
 
-.card-stu{
-    padding: 0.5em;
+.card-stu {
+    padding   : 0.5em;
     text-align: center;
 }
 
-.card-stu:hover{
+.card-stu:hover {
     background: #EEE;
 }
 
-.card-stu-title{
-    font-size: 20px;
-    display: block;
-    cursor: default;
+.card-stu-title {
+    font-size  : 20px;
+    display    : block;
+    cursor     : default;
     font-family: 'CreatoDisplay-Black';
 }
 
-.card-stu-subtitle{
-    font-size: 18px;
-    display: block;
-    cursor: default;
+.card-stu-subtitle {
+    font-size  : 18px;
+    display    : block;
+    cursor     : default;
     font-family: 'CreatoDisplay-Regular';
 }
 
-.card-project-title{
-    margin-top: 1em;
-    font-size: 20px;
-    display: block;
-    cursor: default;
+.card-project-title {
+    margin-top : 1em;
+    font-size  : 20px;
+    display    : block;
+    cursor     : default;
     font-family: 'CreatoDisplay-Black';
 }
 
-.card-project-subtitle{
-    font-size: 18px;
-    display: block;
+.card-project-subtitle {
+    font-size    : 18px;
+    display      : block;
     margin-bottom: 0.5em;
-    cursor: default;
-    font-family: 'CreatoDisplay-Regular';
+    cursor       : default;
+    font-family  : 'CreatoDisplay-Regular';
 }
 
-.card-project-link{
-    font-size: 18px;
-    display: block;
+.card-project-link {
+    font-size      : 18px;
+    display        : block;
     text-decoration: none;
-    color: rgb(233, 61, 181);
-    font-family: 'CreatoDisplay-Black';
+    color          : rgb(233, 61, 181);
+    font-family    : 'CreatoDisplay-Black';
 }
 
-footer{
-    margin: 2em 0;
-    font-size: 14px;
+footer {
+    margin    : 2em 0;
+    font-size : 14px;
     text-align: center;
+}
+
+.card-stu img {
+    transform: scale(0.8) rotate(0);
+}
+
+.card-stu img:hover {
+    transform: scale(1) rotate(0.01deg);
+}
+
+.profile{
+    background: #fff;
+    padding: 6px;
+    padding-bottom: 1em;
+    transform: rotate(348deg);
+    border: 1px solid rgb(124, 124, 124);
+}
+
+.ricaldone:hover{
+    background: url("../img/ricaldone.png");
+    background-position-x: center;
+    padding: 2em;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.bosco:hover{
+    background: url("../img/bosco.png");
+    background-position-x: center;
+    text-decoration: underline;
+
+    padding: 2em;
 }
